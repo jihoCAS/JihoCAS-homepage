@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 
 gem "jekyll"
-gem "bulma-clean-theme"
+gem "bulma-clean-theme", "~> 1.0.0"
 
 group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.6"
