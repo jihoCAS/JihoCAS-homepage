@@ -14,7 +14,7 @@ theme_color: '#1c305c'
 # Build settings
 markdown: kramdown
 #theme: just-the-docs
-remote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
