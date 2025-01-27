@@ -1,8 +1,15 @@
-# Specifikuje zdroj pro RubyGems
+# frozen_string_literal: true
+
 source "https://rubygems.org"
+gemspec
 
-# Přidání gemu pro GitHub Pages
-gem 'github-pages', group: :jekyll_plugins
+group :jekyll_plugins do
+    gem "jekyll-feed", "~> 0.6"
+    gem "jekyll-sitemap"
+    gem "jekyll-paginate"
+    gem "jekyll-seo-tag"
+    gem 'jekyll-redirect-from'
+    gem 'github-pages'
+end
 
-# Přidání vlastního tématu
 gem "bulma-clean-theme"
