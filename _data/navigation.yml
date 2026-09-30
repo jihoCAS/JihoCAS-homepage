@@ -1,0 +1,25 @@
+- name: O nás
+  link: /o-nas/
+- name: Projekty
+  link: /projekty/
+  dropdown:
+    - name: Všechny projekty
+      link: /projekty/
+    - name: Bolidozor
+      link: /projekty/bolidozor/
+    - name: Pozorování Slunce
+      link: /projekty/slunce/
+    - name: Meteory
+      link: /projekty/meteory/
+    - name: Radioastronomie
+      link: /projekty/radioastronomie/
+- name: Hvězdárny
+  link: /hvezdarny/
+- name: Aktuality
+  link: /aktuality/
+- name: Časopis JihoČAS
+  link: /casopis/
+- name: Členství
+  link: /clenstvi/
+- name: Kontakt
+  link: /kontakt/
