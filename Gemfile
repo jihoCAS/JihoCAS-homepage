@@ -2,15 +2,14 @@
 
 source "https://rubygems.org"
 
-
-gem "jekyll"
-gem "bulma-clean-theme", "~> 1.0.0"
+gem "jekyll", "~> 4.4"
+gem "bulma-clean-theme", "~> 1.3"
 
 group :jekyll_plugins do
-    gem "jekyll-feed", "~> 0.6"
-    gem "jekyll-sitemap"
-    gem "jekyll-paginate"
-    gem "jekyll-seo-tag"
-    gem 'jekyll-redirect-from'
-    gem 'github-pages'
+  gem "jekyll-feed", "~> 0.18"
+  gem "jekyll-sitemap", "~> 1.4"
+  gem "jekyll-paginate", "~> 1.1"
+  gem "jekyll-seo-tag", "~> 2.9"
+  gem "jekyll-redirect-from", "~> 0.17"
+  gem "kramdown-parser-gfm", "~> 1.1"
 end
