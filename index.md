@@ -1,9 +1,14 @@
 ---
 title: JihoČAS
-subtitle: Jihočeská pobočka České astronomické společnosti
+subtitle: Jihočeská pobočka České astronomické společnosti. Pozorujeme oblohu, počítáme meteory, sledujeme Slunce a přibližujeme vesmír lidem v jižních Čechách.
+hero_kicker: Astronomie v jižních Čechách
+hero_logo: true
+hero_height: is-medium
 callouts: home_callouts
-hero_link: /o-nas/
-hero_link_text: Kdo jsme
+hero_link: /projekty/
+hero_link_text: Naše projekty
+hero_link2: /clenstvi/
+hero_link2_text: Staňte se členem
 ---
 
 ## Vítejte u JihoČASu

@@ -1,0 +1,21 @@
+{% if page.callouts %}
+    {% assign callouts = site.data[page.callouts] %}
+    <section class="section jc-callouts">
+        <div class="container">
+            <div class="columns is-multiline is-centered">
+                {% for callout in callouts.items %}
+                    <div class="column is-4">
+                        <a class="jc-callout" href="{{ callout.call_to_action_link | relative_url }}">
+                            <span class="jc-callout-icon"><i class="fas {{ callout.icon }}"></i></span>
+                            <span class="jc-callout-body">
+                                <span class="jc-callout-title">{{ callout.title }}</span>
+                                <span class="jc-callout-text">{{ callout.subtitle }}</span>
+                                <span class="jc-callout-cta">{{ callout.call_to_action_name }} →</span>
+                            </span>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endif %}

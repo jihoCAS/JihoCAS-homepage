@@ -1,25 +1,30 @@
-<footer class="footer">
+<footer class="footer jc-footer">
     <div class="container">
-        {% if site.footer_menu %}
-            <div class="columns is-multiline is-mobile is-centered">
-                {% for item in site.data[site.footer_menu] %}
-                    <div class="column is-narrow has-text-centered">
-                        <a href="{{ item.link | relative_url }}" class="link">{{ item.name }}</a>
-                    </div>
-                {% endfor %}
+        <div class="columns">
+            <div class="column is-5">
+                <img src="{{ '/assets/img/logo-cas-dlouhe-bile.png' | relative_url }}" alt="Česká astronomická společnost" width="220" class="jc-footer-logo">
+                <p class="mt-4">Jihočeská pobočka České astronomické společnosti<br>České Budějovice</p>
+                <p class="mt-2"><a href="mailto:{{ site.email }}"><span class="icon"><i class="fas fa-envelope"></i></span> {{ site.email }}</a></p>
             </div>
-        {% endif %}
-
-        {% include follow.html %}
-
-        <div class="content is-small has-text-centered mt-5">
-            <p>
-                &copy; {{ site.time | date: '%Y' }} Jihočeská pobočka
-                <a href="https://www.astro.cz/">České astronomické společnosti</a>
-                · <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-            </p>
-            <p>Vytvořeno v <a href="https://jekyllrb.com/">Jekyllu</a> s tématem
-               <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a>.</p>
+            <div class="column">
+                <p class="jc-footer-heading">Web</p>
+                <ul>
+                    {% for item in site.data[site.footer_menu] %}
+                        <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="column">
+                <p class="jc-footer-heading">Odkazy</p>
+                <ul>
+                    <li><a href="https://www.astro.cz/">astro.cz – Česká astronomická společnost</a></li>
+                    <li><a href="https://www.bolidozor.cz/">Bolidozor</a></li>
+                    <li><a href="https://www.hvezdarna-fp.eu/digitalni-archiv-periodik/jihocas/">Archiv časopisu JihoČAS</a></li>
+                    <li><a href="{{ '/feed.xml' | relative_url }}"><span class="icon"><i class="fas fa-rss"></i></span> RSS aktualit</a></li>
+                </ul>
+            </div>
         </div>
+        {% include follow.html %}
+        <p class="jc-footer-bottom">&copy; {{ site.time | date: '%Y' }} JihoČAS · Logo © Česká astronomická společnost</p>
     </div>
 </footer>
