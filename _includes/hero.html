@@ -1,0 +1,29 @@
+<section class="hero jc-hero {% if page.hero_height %}{{ page.hero_height }}{% else %}is-medium{% endif %}"
+    {% if page.hero_image %}style="background-image: linear-gradient(rgba(5,12,30,.55), rgba(5,12,30,.75)), url('{{ page.hero_image | relative_url }}');"{% endif %}>
+    <div class="jc-stars" aria-hidden="true"></div>
+    <div class="jc-stars jc-stars--small" aria-hidden="true"></div>
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    {% if page.hero_kicker %}<p class="jc-kicker">{{ page.hero_kicker }}</p>{% endif %}
+                    <h1 class="title is-1">{{ page.title }}</h1>
+                    {% if page.subtitle %}<p class="subtitle is-4">{{ page.subtitle }}</p>{% endif %}
+                    {% if page.hero_link %}
+                        <div class="buttons mt-5">
+                            <a href="{{ page.hero_link | relative_url }}" class="button is-accent is-medium">{{ page.hero_link_text }}</a>
+                            {% if page.hero_link2 %}
+                                <a href="{{ page.hero_link2 | relative_url }}" class="button is-white is-outlined is-medium">{{ page.hero_link2_text }}</a>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                </div>
+                {% if page.hero_logo %}
+                    <div class="column is-narrow is-hidden-mobile">
+                        <img class="jc-hero-logo" src="{{ '/assets/img/logo-cas-kulate-bile-velke.png' | relative_url }}" alt="" width="280" height="280">
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>

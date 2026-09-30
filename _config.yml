@@ -30,12 +30,15 @@ collections:
     output: true
     permalink: /projekty/:name/
 
+logo: /assets/img/logo-cas-kulate-modre.png
+
 defaults:
   - scope:
       path: ""
     values:
       layout: page
       show_sidebar: false
+      image: /assets/img/og-image.png
   - scope:
       path: ""
       type: posts
