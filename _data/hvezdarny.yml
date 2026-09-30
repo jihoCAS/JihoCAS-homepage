@@ -1,0 +1,26 @@
+# Hvězdárny spolupracující s JihoČASem (podle astro.cz).
+# Údaje prosím ověřte a doplňte (otevírací doba, fotografie apod.).
+- name: Hvězdárna a planetárium České Budějovice
+  town: České Budějovice
+  address: Zátkovo nábřeží 9/4, 370 01 České Budějovice
+  web: https://www.hvezdarnacb.cz/
+  note: Součástí je i observatoř na Kleti (www.klet.cz).
+  icon: fa-building-columns
+- name: Hvězdárna Františka Pešty
+  town: Sezimovo Ústí
+  address: Ke Hvězdárně 667, 391 02 Sezimovo Ústí
+  web: https://www.hvezdarna-fp.eu/
+  note: Založena roku 1964 Františkem Peštou. Přednášky, kurzy a pozorování pro veřejnost.
+  icon: fa-star
+- name: Hvězdárna a planetárium prof. Františka Nušla
+  town: Jindřichův Hradec
+  address: Jindřichův Hradec
+  web: https://www.planetariumjh.cz/
+  note: Založena roku 1961. Leží přímo na 15. poledníku, digitální planetárium.
+  icon: fa-globe
+- name: Svákovská hvězdárna
+  town: Soběslav
+  address: Svákov, Soběslav
+  web: https://www.facebook.com/svakovska.hvezdarna/
+  note: Soukromá hvězdárna, veřejnosti přístupná při vybraných akcích.
+  icon: fa-moon

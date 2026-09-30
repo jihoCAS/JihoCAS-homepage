@@ -1,0 +1,23 @@
+{%- assign u = include.url -%}
+{%- if u and u contains '://' -%}{%- elsif u -%}{%- assign u = u | relative_url -%}{%- endif -%}
+<div class="column {{ include.width | default: 'is-6-tablet is-4-desktop' }}">
+  <div class="card jc-card">
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <span class="icon is-large has-text-primary"><i class="fas {{ include.icon | default: 'fa-star' }} fa-2x"></i></span>
+        </div>
+        <div class="media-content">
+          <p class="title is-5">{% if u %}<a href="{{ u }}">{{ include.title }}</a>{% else %}{{ include.title }}{% endif %}</p>
+          {% if include.subtitle %}<p class="subtitle is-6">{{ include.subtitle }}</p>{% endif %}
+        </div>
+      </div>
+      {% if include.text %}<div class="content">{{ include.text }}</div>{% endif %}
+    </div>
+    {% if u %}
+    <footer class="card-footer">
+      <a href="{{ u }}" class="card-footer-item">{{ include.cta | default: 'Více informací' }}</a>
+    </footer>
+    {% endif %}
+  </div>
+</div>

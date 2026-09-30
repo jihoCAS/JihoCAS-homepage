@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="content">
+    <p class="has-text-grey">
+        {{ page.date | date: '%-d. %-m. %Y' }}{% if page.author %} · {{ page.author }}{% endif %}
+    </p>
+
+    {{ content }}
+</div>
+
+<div class="tags my-4">
+    {% for tag in page.tags %}
+        {% include tag.html tag=tag %}
+    {% endfor %}
+</div>
+
+<p class="mt-5"><a href="{{ '/aktuality/' | relative_url }}">← Všechny aktuality</a></p>

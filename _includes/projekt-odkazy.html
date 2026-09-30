@@ -1,0 +1,12 @@
+{% if page.links %}
+<h2>Odkazy</h2>
+<div class="buttons">
+  {% for link in page.links %}
+    <a class="button is-primary is-outlined" href="{{ link.url }}">
+      <span class="icon"><i class="fas fa-arrow-up-right-from-square"></i></span>
+      <span>{{ link.name }}</span>
+    </a>
+  {% endfor %}
+</div>
+{% endif %}
+<p class="mt-5"><a href="{{ '/projekty/' | relative_url }}">← Zpět na přehled projektů</a></p>

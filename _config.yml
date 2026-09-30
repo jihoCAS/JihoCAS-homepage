@@ -1,19 +1,18 @@
-
 lang: cs
 title: JihoČAS
 email: romandvorak@mlab.cz
 description: >- # this means to ignore newlines until "baseurl:"
-  JihoČAS stránka
+  Jihočeská pobočka České astronomické společnosti – popularizace astronomie,
+  pozorovací projekty a spolupráce jihočeských hvězdáren.
 baseurl: "/JihoCAS-homepage" # the subpath of your site, e.g. /blog
-url: "https://jihoCAS.github.io"
-#twitter_username: jekyllrb
-github_username:  AstroMeters
+url: "https://jihocas.github.io"
+github_username: AstroMeters
 permalink: pretty
 theme_color: '#1c305c'
+timezone: Europe/Prague
 
 # Build settings
 markdown: kramdown
-#theme: just-the-docs
 theme: bulma-clean-theme
 plugins:
   - jekyll-sitemap
@@ -23,9 +22,35 @@ plugins:
   - kramdown-parser-gfm
   - jekyll-redirect-from
 
+hide_share_buttons: true
+footer_menu: footer_menu
 
 collections:
-  products: 
+  projekty:
     output: true
-    image: ''
-    show_sidebar: false
+    permalink: /projekty/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      show_sidebar: false
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      show_sidebar: false
+  - scope:
+      path: ""
+      type: projekty
+    values:
+      layout: page
+      hero_height: is-small
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

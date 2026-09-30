@@ -1,0 +1,18 @@
+style: is-light
+height: is-small
+items:
+  - title: Projekty
+    subtitle: Bolidozor, Slunce, meteory, radioastronomie
+    icon: fa-satellite-dish
+    call_to_action_name: Rozcestník projektů
+    call_to_action_link: /projekty/
+  - title: Hvězdárny
+    subtitle: Jihočeské hvězdárny, které s námi spolupracují
+    icon: fa-binoculars
+    call_to_action_name: Seznam hvězdáren
+    call_to_action_link: /hvezdarny/
+  - title: Členství
+    subtitle: Přidejte se k nám, stačí zájem o vesmír
+    icon: fa-user-astronaut
+    call_to_action_name: Jak se stát členem
+    call_to_action_link: /clenstvi/

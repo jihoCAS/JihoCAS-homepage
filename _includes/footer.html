@@ -1,0 +1,25 @@
+<footer class="footer">
+    <div class="container">
+        {% if site.footer_menu %}
+            <div class="columns is-multiline is-mobile is-centered">
+                {% for item in site.data[site.footer_menu] %}
+                    <div class="column is-narrow has-text-centered">
+                        <a href="{{ item.link | relative_url }}" class="link">{{ item.name }}</a>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        {% include follow.html %}
+
+        <div class="content is-small has-text-centered mt-5">
+            <p>
+                &copy; {{ site.time | date: '%Y' }} Jihočeská pobočka
+                <a href="https://www.astro.cz/">České astronomické společnosti</a>
+                · <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </p>
+            <p>Vytvořeno v <a href="https://jekyllrb.com/">Jekyllu</a> s tématem
+               <a href="https://github.com/chrisrhymes/bulma-clean-theme">Bulma Clean Theme</a>.</p>
+        </div>
+    </div>
+</footer>
