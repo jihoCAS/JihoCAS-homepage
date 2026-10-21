@@ -5,7 +5,7 @@ permalink: /o-nas/
 hero_height: is-small
 ---
 
-**Jihočeská pobočka České astronomické společnosti** (JihoČAS) sídlí v Českých Budějovicích. Sdružuje amatérské astronomy, pozorovatele a pracovníky jihočeských hvězdáren.
+**Jihočeská pobočka České astronomické společnosti** (JihoČAS) sdružuje amatérské astronomy a pozorovatele z jižních Čech.
 
 ## Čemu se věnujeme
 

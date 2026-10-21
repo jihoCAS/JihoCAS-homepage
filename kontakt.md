@@ -4,8 +4,7 @@ permalink: /kontakt/
 hero_height: is-small
 ---
 
-**Jihočeská pobočka České astronomické společnosti**<br>
-České Budějovice
+**Jihočeská pobočka České astronomické společnosti**
 
 <p>
   <span class="icon"><i class="fas fa-envelope"></i></span>
