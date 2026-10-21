@@ -9,9 +9,8 @@ hero_height: is-small
 
 ## Čemu se věnujeme
 
-- **Popularizace astronomie:** přednášky, pozorování pro veřejnost, spolupráce s hvězdárnami.
+- **Popularizace astronomie:** pozorování pro veřejnost, spolupráce s hvězdárnami.
 - **Pozorovací programy:** sluneční aktivita, meteory a bolidy, radioastronomie. Viz [projekty]({{ '/projekty/' | relative_url }}).
-- **Vzdělávání:** podpora mladých zájemců o astronomii a spolupráce se školami.
 - **Časopis JihoČAS:** vlastní zpravodaj pro členy, viz [časopis]({{ '/casopis/' | relative_url }}).
 
 ## Výbor pobočky

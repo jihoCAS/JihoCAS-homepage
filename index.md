@@ -13,7 +13,7 @@ hero_link2_text: Staňte se členem
 
 ## Vítejte u JihoČASu
 
-Jsme jihočeská pobočka [České astronomické společnosti](https://www.astro.cz/). Sdružujeme zájemce o astronomii z jižních Čech, amatérské pozorovatele i pracovníky hvězdáren. Věnujeme se **popularizaci astronomie**, **pozorovacím programům** (sluneční aktivita, meteory, radioastronomie) a **vzdělávání**.
+Jsme jihočeská pobočka [České astronomické společnosti](https://www.astro.cz/). Sdružujeme zájemce o astronomii z jižních Čech, amatérské pozorovatele i pracovníky hvězdáren. Věnujeme se **popularizaci astronomie** a **pozorovacím programům** (sluneční aktivita, meteory, radioastronomie).
 
 <div class="columns is-multiline mt-4">
 {% assign projekty = site.projekty | sort: "order" %}

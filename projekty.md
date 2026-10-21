@@ -17,7 +17,6 @@ Na projektech se podílejí členové pobočky i spolupracující hvězdárny. P
 ## Další aktivity
 
 <div class="columns is-multiline">
-  {% include karta.html title="Pozorování pro veřejnost" icon="fa-users" text="Společná pozorování zatmění, konjunkcí a meteorických rojů, dny otevřených dveří na hvězdárnách." %}
-  {% include karta.html title="Přednášky" icon="fa-chalkboard-user" text="Přednášky a besedy o astronomii a kosmonautice na hvězdárnách a ve školách." %}
-  {% include karta.html title="Časopis JihoČAS" icon="fa-newspaper" text="Zpravodaj pobočky s články a výsledky pozorování." url="/casopis/" %}
+  {% include karta.html title="Pozorování pro veřejnost" icon="fa-users" text="Společná pozorování zatmění, konjunkcí a meteorických rojů, dny otevřených dveří na hvězdárnách." width="is-6" %}
+  {% include karta.html title="Časopis JihoČAS" icon="fa-newspaper" text="Zpravodaj pobočky s články a výsledky pozorování." url="/casopis/" width="is-6" %}
 </div>
