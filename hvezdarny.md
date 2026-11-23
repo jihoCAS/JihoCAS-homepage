@@ -35,3 +35,18 @@ Pobočka úzce spolupracuje s těmito hvězdárnami. Aktuální program, otevír
 </div>
 {% endfor %}
 </div>
+
+## Hvězdárny v jižních Čechách
+
+V jižních Čechách je celá řada hvězdáren. Některé jsou veřejné a pořádají pozorování a programy pro návštěvníky, jiné jsou profesionální vědecká pracoviště. Najdeme tu také mnoho soukromých hvězdáren, které je často možné navštívit po domluvě s jejich majiteli.
+
+Přehled hvězdáren i dalších míst spojených s astronomií nabízí mapa **Říše hvězd**, kterou na platformě Mapotic provozuje Hvězdárna Františka Pešty v Sezimově Ústí.
+
+<div class="jc-map">
+  <iframe src="https://www.mapotic.com/rise-hvezd/embed?lat=49.05&lng=14.45&zoom=8" title="Mapa Říše hvězd: hvězdárny a astronomická místa v jižních Čechách" loading="lazy" allow="geolocation" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+
+<div class="buttons mt-3">
+  <a class="button is-info is-outlined" href="https://www.mapotic.com/rise-hvezd"><span class="icon"><i class="fas fa-up-right-from-square"></i></span><span>Otevřít celou mapu</span></a>
+  <a class="button is-info is-outlined" href="https://www.hvezdarna-fp.eu/projekty/mapotic-rise-hvezd/mapotic-form/"><span class="icon"><i class="fas fa-plus"></i></span><span>Navrhnout místo na mapu</span></a>
+</div>
