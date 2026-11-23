@@ -4,8 +4,8 @@ email: romandvorak@mlab.cz
 description: >- # this means to ignore newlines until "baseurl:"
   Jihočeská pobočka České astronomické společnosti – popularizace astronomie,
   pozorovací projekty a spolupráce jihočeských hvězdáren.
-baseurl: "/JihoCAS-homepage" # the subpath of your site, e.g. /blog
-url: "https://jihocas.github.io"
+baseurl: "" # web běží v kořeni domény jihocas.cz
+url: "https://jihocas.cz"
 github_username: AstroMeters
 permalink: pretty
 theme_color: '#1c305c'

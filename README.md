@@ -3,7 +3,7 @@
 Statický web postavený na [Jekyllu](https://jekyllrb.com/) s tématem
 [Bulma Clean Theme](https://github.com/chrisrhymes/bulma-clean-theme).
 Po pushi do větve `main` se automaticky sestaví a nasadí na GitHub Pages
-(`.github/workflows/jekyll.yml`).
+(`.github/workflows/jekyll.yml`). Web běží na <https://jihocas.cz/>.
 
 ## Lokální spuštění
 
@@ -14,7 +14,7 @@ bundle install
 bundle exec jekyll serve --livereload
 ```
 
-Web pak běží na <http://localhost:4000/JihoCAS-homepage/>.
+Web pak běží na <http://localhost:4000/>.
 
 ## Kde co upravit
 
