@@ -1,4 +1,6 @@
 lang: cs
+locale: cs_CZ
+tagline: Jihočeská pobočka České astronomické společnosti
 title: JihoČAS
 email: romandvorak@mlab.cz
 description: >- # this means to ignore newlines until "baseurl:"

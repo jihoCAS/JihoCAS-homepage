@@ -1,4 +1,5 @@
 ---
+description: "Viděli jste bolid? Jak ho nahlásit, systematické pozorování meteorů s IMO, hlavní meteorické roje a Meteorický slovníček ke stažení."
 title: Meteory
 subtitle: Bolidy, meteorické roje a systematická pozorování
 icon: fa-meteor

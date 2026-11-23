@@ -1,4 +1,5 @@
 ---
+description: "Novinky z Jihočeské pobočky České astronomické společnosti a pozvánky na akce."
 title: Aktuality
 subtitle: Novinky z pobočky a pozvánky na akce
 permalink: /aktuality/

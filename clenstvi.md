@@ -1,4 +1,5 @@
 ---
+description: "Jak se stát členem Jihočeské pobočky České astronomické společnosti: výše příspěvků, podmínky a postup přihlášky."
 title: Členství
 subtitle: Staňte se členem JihoČASu
 permalink: /clenstvi/

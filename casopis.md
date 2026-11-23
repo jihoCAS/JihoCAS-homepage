@@ -1,4 +1,5 @@
 ---
+description: "JihoČAS, zpravodaj Jihočeské pobočky ČAS: články o dění v pobočce, výsledky pozorování a digitální archiv časopisu."
 title: Časopis JihoČAS
 subtitle: Zpravodaj Jihočeské pobočky ČAS
 permalink: /casopis/

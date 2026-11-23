@@ -1,4 +1,5 @@
 ---
+description: "Pozorování sluneční aktivity: zákresy slunečních skvrn a fotografie fotosféry. Spolupráce se Sluneční sekcí ČAS a medailon Ladislava Schmieda."
 title: Pozorování Slunce
 subtitle: Sledování sluneční aktivity
 icon: fa-sun

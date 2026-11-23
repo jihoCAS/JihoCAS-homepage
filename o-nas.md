@@ -1,4 +1,5 @@
 ---
+description: "Kdo jsme a co děláme: Jihočeská pobočka ČAS sdružuje amatérské astronomy a pozorovatele z jižních Čech. Výbor pobočky a spolupracující hvězdárny."
 title: O JihoČASu
 subtitle: Kdo jsme a co děláme
 permalink: /o-nas/

@@ -1,4 +1,5 @@
 ---
+description: "Kontakt na Jihočeskou pobočku České astronomické společnosti."
 title: Kontakt
 permalink: /kontakt/
 hero_height: is-small

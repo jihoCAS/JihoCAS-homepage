@@ -1,4 +1,5 @@
 ---
+description: "Amatérská radioastronomie: rádiové záření Slunce, odrazy od meteorických stop a náhlé ionosférické poruchy."
 title: Radioastronomie
 subtitle: Vesmír v rádiových vlnách
 icon: fa-tower-broadcast

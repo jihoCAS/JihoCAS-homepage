@@ -1,4 +1,5 @@
 ---
+description: "Hvězdárny spolupracující s Jihočeskou pobočkou ČAS: České Budějovice, Sezimovo Ústí, Jindřichův Hradec a Svákovská hvězdárna u Soběslavi."
 title: Hvězdárny v JihoČASu
 subtitle: Jihočeské hvězdárny spolupracující s pobočkou
 permalink: /hvezdarny/

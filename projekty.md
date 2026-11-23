@@ -1,4 +1,5 @@
 ---
+description: "Rozcestník projektů JihoČASu: radiová síť Bolidozor, pozorování Slunce, meteorů a bolidů, radioastronomie a další aktivity pobočky."
 title: Projekty a aktivity
 subtitle: Rozcestník pozorovacích programů JihoČASu
 permalink: /projekty/

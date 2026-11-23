@@ -1,4 +1,5 @@
 ---
+description: "Bolidozor je radiová síť pro detekci meteorů a bolidů, ve dne i v noci a za každého počasí. Cíle projektu a jak se můžete zapojit."
 title: Bolidozor
 subtitle: Radiová síť pro detekci meteorů a bolidů
 icon: fa-satellite-dish

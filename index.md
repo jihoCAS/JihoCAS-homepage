@@ -1,4 +1,5 @@
 ---
+description: "Jihočeská pobočka České astronomické společnosti. Projekty Bolidozor, pozorování Slunce a meteorů, radioastronomie a spolupráce jihočeských hvězdáren."
 title: JihoČAS
 subtitle: Jihočeská pobočka České astronomické společnosti. Pozorujeme oblohu, počítáme meteory, sledujeme Slunce a přibližujeme vesmír lidem v jižních Čechách.
 hero_kicker: Astronomie v jižních Čechách
