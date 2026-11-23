@@ -6,7 +6,7 @@ permalink: /hvezdarny/
 hero_height: is-small
 ---
 
-Pobočka úzce spolupracuje s těmito hvězdárnami. Aktuální program, otevírací dobu a vstupné najdete na jejich webech.
+Mezi členy JihoČASu jsou mimo jiné zástupci těchto hvězdáren. Jejich aktuální program, otevírací dobu a vstupné najdete na webech jednotlivých hvězdáren.
 
 <div class="columns is-multiline mt-4">
 {% for h in site.data.hvezdarny %}
