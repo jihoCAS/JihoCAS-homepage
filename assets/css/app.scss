@@ -296,3 +296,22 @@ h1, h2, h3, .title, .jc-brand-text strong, .jc-callout-title {
   .jc-hero .title.is-1 { font-size: 2.4rem; }
   .jc-hero .subtitle.is-4 { font-size: 1.1rem; }
 }
+
+// ---------------------------------------------------------------
+// Poznámka bokem
+// ---------------------------------------------------------------
+.jc-note {
+  background: var(--jc-section-bg);
+  border-left: 4px solid $jc-cas;
+  border-radius: 8px;
+  padding: 1.1rem 1.25rem;
+  font-size: .95rem;
+
+  p + p { margin-top: .6rem; }
+}
+.jc-note-title {
+  font-family: $jc-heading-font;
+  font-weight: 700;
+  color: var(--jc-title);
+  .icon { color: $jc-cas; }
+}

@@ -9,7 +9,7 @@ hero_height: is-small
 
 Redakci vede **Petr Bartoš**.
 
-<a class="button is-primary" href="https://www.hvezdarna-fp.eu/digitalni-archiv-periodik/jihocas/">
+<a class="button is-info" href="https://www.hvezdarna-fp.eu/digitalni-archiv-periodik/jihocas/">
   <span class="icon"><i class="fas fa-box-archive"></i></span>
   <span>Digitální archiv časopisu</span>
 </a>
