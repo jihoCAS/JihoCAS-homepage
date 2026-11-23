@@ -17,9 +17,12 @@ Na rozdíl od optického pozorování radiová detekce nezávisí na počasí an
 
 ## Cíle projektu
 
-- měřit parametry průletu meteorů atmosférou,
-- z údajů z více stanic vypočítat dráhu tělesa,
-- u jasných bolidů odhadnout temnou dráhu a oblast možného dopadu meteoritu.
+<div class="columns is-multiline mt-4">
+  {% include karta.html width="is-6" icon="fa-clock" title="Nepřetržité sledování" text="Zaznamenávat průlety meteorů ve dne i v noci a za každého počasí, tedy i tehdy, kdy optické kamery nic nevidí." %}
+  {% include karta.html width="is-6" icon="fa-wave-square" title="Měření průletů" text="Měřit parametry průletu meteorů atmosférou z radiových ozvěn zachycených stanicemi sítě." %}
+  {% include karta.html width="is-6" icon="fa-route" title="Výpočet dráhy" text="Z měření více stanic najednou vypočítat dráhu tělesa v atmosféře." %}
+  {% include karta.html width="is-6" icon="fa-location-crosshairs" title="Hledání meteoritů" text="U jasných bolidů odhadnout temnou dráhu a oblast možného dopadu, kde má smysl hledat meteorit." %}
+</div>
 
 ## Jak se zapojit
 

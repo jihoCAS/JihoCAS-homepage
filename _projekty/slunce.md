@@ -47,10 +47,10 @@ Začít je jednoduché: stačí začít pozorovat Slunce.
 
 > **Bezpečnost především:** Do Slunce se nikdy nedívejte dalekohledem ani triedrem bez certifikovaného slunečního filtru. Hrozí trvalé poškození zraku. Při zakreslování proto používejte projekci, kdy se do dalekohledu nedíváte.
 
-Návody, výsledky pozorování a pozvánky na setkání pozorovatelů najdete u Sluneční sekce ČAS:
+Návody a výsledky pozorování najdete u Sluneční sekce ČAS:
 
 - [Činnost sekce](https://slunce.astro.cz/cinnost-sekce/): co sekce dělá a jak se do ní zapojit,
-- [články o zákresech](https://slunce.astro.cz/tag/kresba/) a [praktika pro pozorovatele](https://slunce.astro.cz/tag/praktikum/), kde si zákres a jeho zpracování vyzkoušejí nováčci i zkušení,
+- [články o zákresech](https://slunce.astro.cz/tag/kresba/) slunečních skvrn,
 - [Aktuální data](https://slunce.astro.cz/aktualni-data/) o sluneční aktivitě,
 - [Jak se stát členem](https://slunce.astro.cz/jak-se-stat-clenem/) Sluneční sekce.
 
