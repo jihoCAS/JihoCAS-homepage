@@ -7,7 +7,7 @@ order: 3
 summary: Hlášení bolidů, pozorování meteorických rojů a systematická pozorování ve spolupráci s Mezinárodní meteorickou organizací (IMO).
 links:
   - name: Nahlásit bolid
-    url: https://fireball.imo.net/members/imo/report_intro
+    url: https://bolidozor.imo.net/
   - name: International Meteor Organization
     url: https://www.imo.net/
 ---
@@ -18,7 +18,7 @@ Meteory můžete pozorovat pouhým okem a bez dalekohledu, proto jsou ideálním
 
 ## Jak nahlásit bolid
 
-Hlášení bolidů sbírá **Mezinárodní meteorická organizace (IMO)** společně s American Meteor Society. Formulář je přeložený i do češtiny a projde vás krok za krokem. Čím víc lidí stejný bolid nahlásí, tím přesněji jde spočítat jeho dráhu.
+Hlášení bolidů sbírá **Mezinárodní meteorická organizace (IMO)** společně s American Meteor Society. Český formulář na adrese bolidozor.imo.net vás provede krok za krokem. Čím víc lidí stejný bolid nahlásí, tím přesněji jde spočítat jeho dráhu.
 
 <div class="columns is-multiline mt-4">
   {% include karta.html width="is-6 is-3-desktop" icon="fa-clock" title="Kdy" text="Datum a co nejpřesnější čas přeletu." %}
