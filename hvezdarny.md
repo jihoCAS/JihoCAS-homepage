@@ -1,7 +1,7 @@
 ---
-description: "Hvězdárny spolupracující s Jihočeskou pobočkou ČAS: České Budějovice, Sezimovo Ústí, Jindřichův Hradec a Svákovská hvězdárna u Soběslavi."
-title: Hvězdárny v JihoČASu
-subtitle: Jihočeské hvězdárny spolupracující s pobočkou
+description: "Hvězdárny v jižních Čechách: České Budějovice, Sezimovo Ústí, Jindřichův Hradec, Svákovská hvězdárna u Soběslavi a mapa dalších astronomických míst v regionu."
+title: Hvězdárny v jižních Čechách
+subtitle: Veřejné, profesionální i soukromé hvězdárny v regionu
 permalink: /hvezdarny/
 hero_height: is-small
 ---
@@ -36,7 +36,7 @@ Mezi členy JihoČASu jsou mimo jiné zástupci těchto hvězdáren. Jejich aktu
 {% endfor %}
 </div>
 
-## Hvězdárny v jižních Čechách
+## Mapa hvězdáren a astronomických míst
 
 V jižních Čechách je celá řada hvězdáren. Některé jsou veřejné a pořádají pozorování a programy pro návštěvníky, jiné jsou profesionální vědecká pracoviště. Najdeme tu také mnoho soukromých hvězdáren, které je často možné navštívit po domluvě s jejich majiteli.
 
